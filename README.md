@@ -49,16 +49,18 @@ With verbose output:
 
 ## Project Structure
 
- AI-agent/
-   ├── main.py              # Entry point and agent loop
-   ├── call_function.py     # Function dispatcher
-   ├── prompts.py           # System prompt
-   ├── functions/
-   │   ├── get_files_info.py
-   │   ├── get_file_content.py
-   │   ├── write_file.py
-   │   └── run_python_file.py
-   └── calculator/          # Sample codebase for the agent to work on
+```
+AI-agent/
+├── main.py              # Entry point and agent loop
+├── call_function.py     # Function dispatcher
+├── prompts.py           # System prompt
+├── functions/
+│   ├── get_files_info.py
+│   ├── get_file_content.py
+│   ├── write_file.py
+│   └── run_python_file.py
+└── calculator/          # Sample codebase for the agent to work on
+```
 
 ## Warning
 
