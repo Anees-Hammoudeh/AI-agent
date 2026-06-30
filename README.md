@@ -49,7 +49,7 @@ With verbose output:
 
 ## Project Structure
 
-   AI-agent/
+ AI-agent/
    ├── main.py              # Entry point and agent loop
    ├── call_function.py     # Function dispatcher
    ├── prompts.py           # System prompt
